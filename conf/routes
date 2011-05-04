@@ -6,7 +6,7 @@
 GET     /                                       Application.index
 
 GET     /inscription                                       Application.inscription
-GET     /invitation                                       Application.invitation
+GET     /invitation                                       Invitation.accessInvitation
 GET     /invitation/invitenewmember                                       Application.invitation
 
 
