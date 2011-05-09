@@ -6,8 +6,10 @@
 GET     /                                                  Application.index
 
 GET     /inscription                                       Application.inscription
+
 GET     /invitation                                        Invitation.index
 GET     /invitation/invitenewmember                        Invitation.inviteNewMember
+
 
 
 # Map static resources from the /app/public folder to the /public path

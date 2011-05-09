@@ -113,6 +113,10 @@ public class Invitation extends BaseController {
 		
 	}
 	
+	
+	public static void accessInvitation(){
+	render("Application/invitation.html");
+	}
 	public static void sendInvitation(
 		String firstNameSender,
 		String lastNameSender,
